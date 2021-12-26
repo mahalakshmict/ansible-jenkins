@@ -1,0 +1,5 @@
+---
+ - name: example playbook for ansible jenkins integration
+   hosts: localhost
+   tasks:
+      - debug: msg="hello"
